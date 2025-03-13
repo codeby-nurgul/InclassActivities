@@ -1,0 +1,18 @@
+input{
+    width: 140px;
+}
+table {
+    border-spacing:20px;
+}
+input[type=checkbox], input[type=radio]{
+    width: 10px;
+}
+.male, .female{
+    display: inline-block;
+}
+.english,.french,.germany{
+    display: inline-block;
+}
+h1{
+    margin-bottom: -50px;
+}
