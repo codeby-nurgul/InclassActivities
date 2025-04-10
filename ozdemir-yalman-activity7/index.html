@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Chase Game</title>
+    <style>
+        #gameArea {
+            width: 1400px; 
+            height: 600px;  
+            position: relative;
+            border: 2px solid black; 
+            display: block;
+            margin: auto;
+        }
+        #gameButton {
+            position: absolute;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        #status {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="status">Level: 1 | Clicks: 0/3</div>
+    <div id="gameArea">
+        <button id="gameButton">Click Me!</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
