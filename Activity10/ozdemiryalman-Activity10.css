@@ -1,0 +1,40 @@
+#infoForm {
+    width: 600px;
+    margin: 50px 0 0 50px; /* üstten ve soldan boşluk */
+    font-family: sans-serif;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-row label {
+    width: 250px;
+    font-size: 16px;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  .form-row input {
+    
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+  }
+  .form-row-submit{
+    display: flex;
+    align-items: start;
+    margin-bottom: 15px;
+  }
+  .form-row button {
+    margin-left: 260px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
